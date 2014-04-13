@@ -22,11 +22,11 @@ L.tileLayer(mapURL, {
 }).addTo(map);
 
 function addMarkers (result) {
-	var resultLen = result.places.length,
-		thisResult,
+	var thisResult,
 		thisLayer,
 		layerName;
-	for (var i = 0; i < resultLen; i++) {
+
+	for (var i in result.places) {
 		thisResult = result.places[i];
 		switch (thisResult.type) {
 			case 'cinema' :
@@ -46,18 +46,19 @@ function addMarkers (result) {
 		layerName = L.marker(
 			[thisResult.location.lat,thisResult.location.lon],
 			{ icon: icon }
-			).bindPopup(thisResult.name);
+			).bindPopup('<h2>'+thisResult.name+'</h2>');
 		thisLayer.push(layerName);
 	}
+
 	var cinemaOverlay = L.layerGroup(cinemaLayer).addTo(map),
 		leisureOverlay = L.layerGroup(leisureLayer).addTo(map),
 		pubOverlay = L.layerGroup(pubLayer).addTo(map),
 		transportOverlay = L.layerGroup(transportLayer).addTo(map),
 		overlayMap = {
-		"Cinema" : cinemaOverlay,
-		"Leisure" : leisureOverlay,
-		"Pubs" : pubOverlay,
-		"Transport" : transportOverlay
+		'Cinema' : cinemaOverlay,
+		'Leisure' : leisureOverlay,
+		'Pubs' : pubOverlay,
+		'Transport' : transportOverlay
 	};
 	L.control.layers(null,overlayMap).addTo(map);
 }
