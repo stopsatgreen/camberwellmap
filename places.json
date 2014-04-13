@@ -1,0 +1,247 @@
+{
+	"places" : [
+		{
+			"icon" : "pub.png",
+			"location" : {
+				"lat" : "51.4713",
+				"lon" : "-0.0826"
+			},
+			"name" : "The Bickleigh",
+			"type" : "pub"
+		},
+		{
+			"icon" : "pub.png",
+			"location" : {
+				"lat" : "51.4784",
+				"lon" : "-0.0852"
+			},
+			"name" : "Bricklayers Arms",
+			"type" : "pub"
+		},
+		{
+			"icon" : "pub.png",
+			"location" : {
+				"lat" : "51.4663",
+				"lon" : "-0.101"
+			},
+			"name" : "The Crown (The Mucky Duck)",
+			"type" : "pub"
+		},
+		{
+			"icon" : "pub.png",
+			"location" : {
+				"lat" : "51.4724",
+				"lon" : "-0.0994"
+			},
+			"name" : "The Denmark",
+			"type" : "pub"
+		},
+		{
+			"icon" : "pub.png",
+			"location" : {
+				"lat" : "51.4822",
+				"lon" : "-0.0991"
+			},
+			"name" : "Grosvenor Arms",
+			"type" : "pub"
+		},
+		{
+			"icon" : "pub.png",
+			"location" : {
+				"lat" : "51.4762",
+				"lon" : "-0.098"
+			},
+			"name" : "King William the Fourth",
+			"type" : "pub"
+		},
+		{
+			"icon" : "pub.png",
+			"location" : {
+				"lat" : "51.477303",
+				"lon" : "-0.08371"
+			},
+			"name" : "The Orange Tree",
+			"type" : "pub"
+		},
+		{
+			"icon" : "pub.png",
+			"location" : {
+				"lat" : "51.470239",
+				"lon" : "-0.075720"
+			},
+			"name" : "Talfourd Arms",
+			"type" : "pub"
+		},
+		{
+			"icon" : "pub.png",
+			"location" : {
+				"lat" : "51.4687",
+				"lon" : "-0.1013"
+			},
+			"name" : "Wickwood Tavern",
+			"type" : "pub"
+		},
+		{
+			"icon" : "pub.png",
+			"location" : {
+				"lat" : "51.4786",
+				"lon" : "-0.0986"
+			},
+			"name" : "The Windmill",
+			"type" : "pub"
+		},
+		{
+			"icon" : "pub.png",
+			"location" : {
+				"lat" : "51.470183",
+				"lon" : "-0.079756"
+			},
+			"name" : "Cadeleigh Arms",
+			"type" : "pub"
+		},
+		{
+			"icon" : "train.png",
+			"location" : {
+				"lat" : "51.4839",
+				"lon" : "-0.0957"
+			},
+			"name" : "Camberwell Gate (Walworth Road)",
+			"type" : "transport"
+		},
+		{
+			"icon" : "train.png",
+			"location" : {
+				"lat" : "51.4738",
+				"lon" : "-0.0978"
+			},
+			"name" : "Camberwell",
+			"type" : "transport"
+		},
+		{
+			"icon" : "taxi.png",
+			"location" : {
+				"lat" : "51.473853",
+				"lon" : "-0.092993"
+			},
+			"name" : "Taxi shelter",
+			"type" : "transport"
+		},
+		{
+			"icon" : "cinema.png",
+			"location" : {
+				"lat" : "51.4763403",
+				"lon" : "-0.094284"
+			},
+			"name" : "ABC",
+			"type" : "cinema"
+		},
+		{
+			"icon" : "cinema.png",
+			"location" : {
+				"lat" : "51.472697",
+				"lon" : "-0.092529"
+			},
+			"name" : "Bijou Picture Theatre",
+			"type" : "cinema"
+		},
+		{
+			"icon" : "cinema.png",
+			"location" : {
+				"lat" : "51.483386",
+				"lon" : "-0.094141"
+			},
+			"name" : "Cinema",
+			"type" : "cinema"
+		},
+		{
+			"icon" : "cinema.png",
+			"location" : {
+				"lat" : "51.4796",
+				"lon" : "-0.0855"
+			},
+			"name" : "Central (Coronet)",
+			"type" : "cinema"
+		},
+		{
+			"icon" : "cinema.png",
+			"location" : {
+				"lat" : "51.4734326",
+				"lon" : "-0.093494"
+			},
+			"name" : "Golden Domes Picture Theatre (Essoldo)",
+			"type" : "cinema"
+		},
+		{
+			"icon" : "cinema.png",
+			"location" : {
+				"lat" : "51.4745837",
+				"lon" : "-0.094089"
+			},
+			"name" : "Grand (New Grand Hall Cinema Theatre)",
+			"type" : "cinema"
+		},
+		{
+			"icon" : "cinema.png",
+			"location" : {
+				"lat" : "51.471569",
+				"lon" : "-0.093283"
+			},
+			"name" : "Odeon (New Empire)",
+			"type" : "cinema"
+		},
+		{
+			"icon" : "cinema.png",
+			"location" : {
+				"lat" : "51.472692",
+				"lon" : "-0.092859"
+			},
+			"name" : "Palace",
+			"type" : "cinema"
+		},
+		{
+			"icon" : "cinema.png",
+			"location" : {
+				"lat" : "51.484915",
+				"lon" : "-0.092824"
+			},
+			"name" : "Purple Picture House",
+			"type" : "cinema"
+		},
+		{
+			"icon" : "cinema.png",
+			"location" : {
+				"lat" : "51.485464",
+				"lon" : "-0.093712"
+			},
+			"name" : "Savoy (Picture Empire)",
+			"type" : "cinema"
+		},
+		{
+			"icon" : "cinema.png",
+			"location" : {
+				"lat" : "51.478247",
+				"lon" : "-0.085389"
+			},
+			"name" : "Southampton (North Camberwell, Cosy)",
+			"type" : "cinema"
+		},
+		{
+			"icon" : "skate.png",
+			"location" : {
+				"lat" : "51.468863",
+				"lon" : "-0.086228"
+			},
+			"name" : "Lava Skating Rink",
+			"type" : "leisure"
+		},
+		{
+			"icon" : "skate.png",
+			"location" : {
+				"lat" : "51.4745837",
+				"lon" : "-0.094089"
+			},
+			"name" : "New Grand Hall",
+			"type" : "leisure"
+		}
+	]
+}
