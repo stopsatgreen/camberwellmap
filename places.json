@@ -3,6 +3,15 @@
 		{
 			"icon" : "pub.png",
 			"location" : {
+				"lat" : "51.474344",
+				"lon" : "-0.094162"
+			},
+			"name" : "The Athenaeum",
+			"type" : "pub"
+		},
+		{
+			"icon" : "pub.png",
+			"location" : {
 				"lat" : "51.4713",
 				"lon" : "-0.0826"
 			},
@@ -34,6 +43,15 @@
 				"lon" : "-0.0994"
 			},
 			"name" : "The Denmark",
+			"type" : "pub"
+		},
+		{
+			"icon" : "pub.png",
+			"location" : {
+				"lat" : "51.475698",
+				"lon" : "-0.093369"
+			},
+			"name" : "The Father Red Cap",
 			"type" : "pub"
 		},
 		{
@@ -132,7 +150,7 @@
 				"lat" : "51.4763403",
 				"lon" : "-0.094284"
 			},
-			"name" : "ABC",
+			"name" : "Regal (ABC)",
 			"type" : "cinema"
 		},
 		{
@@ -192,8 +210,8 @@
 		{
 			"icon" : "cinema.png",
 			"location" : {
-				"lat" : "51.472692",
-				"lon" : "-0.092859"
+				"lat" : "51.472938",
+				"lon" : "-0.092965"
 			},
 			"name" : "Palace",
 			"type" : "cinema"
@@ -242,6 +260,24 @@
 			},
 			"name" : "New Grand Hall",
 			"type" : "leisure"
+		},
+		{
+			"icon" : "theatre.png",
+			"location" : {
+				"lat" : "51.472938",
+				"lon" : "-0.092965"
+			},
+			"name" : "Palace of Varieties",
+			"type" : "theatre"
+		},
+		{
+			"icon" : "theatre.png",
+			"location" : {
+				"lat" : "51.471569",
+				"lon" : "-0.093283"
+			},
+			"name" : "Metropole (Empire)",
+			"type" : "theatre"
 		}
 	]
 }

@@ -13,6 +13,7 @@ var map = L.map('map').setView([51.474104, -0.093027], 15),
 	cinemaLayer = [],
 	leisureLayer = [],
 	pubLayer = [],
+	theatreLayer = [],
 	transportLayer = [];
 
 L.tileLayer(mapURL, {
@@ -38,6 +39,9 @@ function addMarkers (result) {
 			case 'pub' :
 				thisLayer = pubLayer;
 				break;
+			case 'theatre' :
+				thisLayer = theatreLayer;
+				break;
 			case 'transport' :
 				thisLayer = transportLayer;
 				break;
@@ -53,11 +57,13 @@ function addMarkers (result) {
 	var cinemaOverlay = L.layerGroup(cinemaLayer).addTo(map),
 		leisureOverlay = L.layerGroup(leisureLayer).addTo(map),
 		pubOverlay = L.layerGroup(pubLayer).addTo(map),
+		theatreOverlay = L.layerGroup(theatreLayer).addTo(map),
 		transportOverlay = L.layerGroup(transportLayer).addTo(map),
 		overlayMap = {
 		'Cinema' : cinemaOverlay,
 		'Leisure' : leisureOverlay,
 		'Pubs' : pubOverlay,
+		'Theatre' : theatreOverlay,
 		'Transport' : transportOverlay
 	};
 	L.control.layers(null,overlayMap).addTo(map);
